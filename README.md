@@ -1,4 +1,7 @@
 # GameLuck
+[preview](https://user-images.githubusercontent.com/87918106/197359373-c0b9e73b-61a0-4729-b969-6edfa97d7142.webm)
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
 
