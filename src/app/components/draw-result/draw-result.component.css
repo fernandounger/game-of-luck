@@ -1,0 +1,31 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+}
+.container img{
+    width: 140px;
+}
+.container h2{
+    color: #FFFFFF;
+    font-size: 1.8rem;
+}
+.container h3{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+.container h2 span, .container h3 span{
+    color: #F9E343;
+}
+.container button{
+    padding: 16px 12px;
+    width: 380px;
+    border-radius: 4px;
+    background: #F9E343;
+    cursor: pointer;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
