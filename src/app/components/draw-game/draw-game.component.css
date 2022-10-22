@@ -1,0 +1,45 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+}
+.container img{
+    width: 140px;
+}
+.container h2{
+    color: #FFFFFF;
+    font-size: 1.6rem;
+}
+.container h2 span{
+    color: #F9E343;
+}
+.container input, button{
+    padding: 16px 12px;
+    width: 380px;
+    border-radius: 4px;
+}
+.container button{
+    background: #F9E343;
+    cursor: pointer;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.container input{
+    background: #202024;
+    transition: outline .3s ease-in-out;
+    color: #7C7C8A;
+}
+.container input:focus{
+    outline: 1px solid#F9E343;
+}
+.container input::placeholder{
+    color: #7C7C8A;
+}
+.container form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}

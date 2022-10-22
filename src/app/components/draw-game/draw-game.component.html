@@ -1,0 +1,10 @@
+<div class="container">
+
+    <img src="../assets/img/cristal-ball.svg" alt="">
+
+    <h2>Digite um número de 1 a <span>100</span></h2>
+    <form [formGroup]="form" (submit)="OnSubmit()">
+        <input type="text" placeholder="Digite um número" formControlName="number">
+        <button type="submit" [disabled]="form.invalid">SORTEAR</button>
+    </form>
+</div>
