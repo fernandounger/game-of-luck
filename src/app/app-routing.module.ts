@@ -4,6 +4,7 @@ import { DrawGameComponent } from './components/draw-game/draw-game.component';
 import { DrawResultComponent } from './components/draw-result/draw-result.component';
 
 const routes: Routes = [
+  {path: '', redirectTo: 'home', pathMatch: 'full' },
   {path: 'home', component: DrawGameComponent },
   {path: 'result', component: DrawResultComponent}
 ];
